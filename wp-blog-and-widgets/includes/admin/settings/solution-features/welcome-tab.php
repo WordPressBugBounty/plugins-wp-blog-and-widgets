@@ -14,14 +14,18 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="wpbaw_welcome_tabs" class="wpbaw-vtab-cnt wpbaw_welcome_tabs wpbaw-clearfix">
 
-	<div class="wpbaw-deal-offer-wrap">
+	<!-- <div class="wpbaw-deal-offer-wrap">
 		<h3 style="font-weight: bold; font-size: 30px; color:#ffef00; text-align:center; margin: 15px 0 5px 0;">Why Invest Time On Free Version?</h3>
 
 		<h3 style="font-size: 18px; text-align:center; margin:0; color:#fff;">Explore WP Blog and Widgets Pro with Essential Bundle Free for 5 Days.</h3>			
 
 		<div class="wpbaw-deal-free-offer">
-			<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpbaw-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
+			<a href="<?php //echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpbaw-sf-free-btn"><span class="dashicons dashicons-cart"></span> Try Pro For 5 Days Free</a>
 		</div>
+	</div> -->
+
+	<div class="wpbaw-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPBAW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 
 	<div style="padding: 30px;border-radius: 10px;border: 1px solid #e5ecf6; text-align: center;">

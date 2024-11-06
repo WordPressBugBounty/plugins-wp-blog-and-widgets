@@ -189,7 +189,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 								<li><?php esc_html_e('100% Multi language', 'wp-blog-and-widgets'); ?></li>
 							</ul>
 							<div class="upgrade-to-pro"><?php esc_html_e('Gain access to', 'wp-blog-and-widgets'); ?> <strong>WP Blog and Widget</strong></div>
-							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WPBAW_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro For 5 Days Free', 'wp-blog-and-widgets'); ?></a>
+							<a class="button button-primary wpos-button-full button-orange" href="<?php echo esc_url(WPBAW_PLUGIN_LINK_UNLOCK); ?>" target="_blank"><?php esc_html_e('Try Pro with Back Friday Deals', 'wp-blog-and-widgets'); ?></a>
 						</div><!-- .inside -->
 					</div><!-- #general -->
 				</div><!-- .meta-box-sortables -->

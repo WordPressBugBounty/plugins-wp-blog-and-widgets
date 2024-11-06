@@ -13,6 +13,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 } ?>
 
 <div id="wpbaw_themes_tabs" class="wpbaw-vtab-cnt wpbaw_themes_tabs wpbaw-clearfix">
+	
+	<div class="wpbaw-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPBAW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div>
+
 	<!-- Start - Blog Designer - Post and Widget/Carousel - Features -->
 	<div class="wpbaw-features-section">
 		<div class="wpbaw-center">
@@ -64,15 +69,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpbaw-deal-offer-wrap">
+	<!-- <div class="wpbaw-deal-offer-wrap">
 		<div class="wpbaw-deal-offer"> 
 			<div class="wpbaw-inn-deal-offer">
 				<h3 class="wpbaw-inn-deal-hedding"><span>Try WP Blog and Widgets Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wpbaw-deal-free-offer">
-				<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpbaw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php // echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpbaw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wpbaw-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPBAW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 
 </div>

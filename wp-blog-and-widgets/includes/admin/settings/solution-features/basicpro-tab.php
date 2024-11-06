@@ -12,7 +12,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 } ?>
 <div id="wpbaw_basic_tabs" class="wpbaw-vtab-cnt wpbaw_basic_tabs wpbaw-clearfix">
-	<h3 style="text-align:center">Compare <span class="wpbaw-blue">"WP Blog and Widget"</span> Free VS Pro</h3>
 
 	<!-- <div class="wpbaw-deal-offer-wrap">
 		<div class="wpbaw-deal-offer"> 
@@ -28,16 +27,22 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpbaw-deal-offer-wrap">
+	<!-- <div class="wpbaw-deal-offer-wrap">
 		<div class="wpbaw-deal-offer"> 
 			<div class="wpbaw-inn-deal-offer">
 				<h3 class="wpbaw-inn-deal-hedding"><span>Try WP Blog and Widgets Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wpbaw-deal-free-offer">
-				<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpbaw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php // echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpbaw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wpbaw-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPBAW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
+
+	<h3 style="text-align:center">Compare <span class="wpbaw-blue">"WP Blog and Widget"</span> Free VS Pro</h3>
 
 	<table class="wpos-plugin-pricing-table">
 		<colgroup></colgroup>
@@ -197,15 +202,19 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpbaw-deal-offer-wrap">
+	<!-- <div class="wpbaw-deal-offer-wrap">
 		<div class="wpbaw-deal-offer"> 
 			<div class="wpbaw-inn-deal-offer">
 				<h3 class="wpbaw-inn-deal-hedding"><span>Try WP Blog and Widgets Pro</span> in Essential Bundle Free For 5 Days.</h3>
 			</div>
 			<div class="wpbaw-deal-free-offer">
-				<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpbaw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
+				<a href="<?php //echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank" class="wpbaw-sf-free-btn"><span class="dashicons dashicons-cart"></span>Try Pro For 5 Days Free</a>
 			</div>
 		</div>
+	</div> -->
+
+	<div class="wpbaw-black-friday-banner-wrp">
+		<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPBAW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
 	</div>
 
 </div>

@@ -5,7 +5,7 @@
  * Text Domain: wp-blog-and-widgets
  * Domain Path: /languages/
  * Description: Display Blog on your website with list and in grid view. Also work with Gutenberg shortcode block.
- * Version: 2.6.1
+ * Version: 2.6.2
  * Author: WP OnlineSupport, Essential Plugin
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-blog-and-widgets/
  * Contributors: Essential Plugin
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPBAW_VERSION' ) ) {
-	define( 'WPBAW_VERSION', '2.6.1' ); // Version of plugin
+	define( 'WPBAW_VERSION', '2.6.2' ); // Version of plugin
 }
 
 if( ! defined( 'WPBAW_DIR' ) ) {
@@ -55,11 +55,11 @@ if( ! defined( 'WPBAW_SITE_LINK' ) ) {
 }
 
 if( ! defined( 'WPBAW_PLUGIN_BUNDLE_LINK' ) ) {
-	define('WPBAW_PLUGIN_BUNDLE_LINK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Welcome-Screen'); // Plugin link
+	define('WPBAW_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
 if( ! defined( 'WPBAW_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WPBAW_PLUGIN_LINK_UNLOCK', 'https://www.wponlinesupport.com/checkout/?edd_action=add_to_cart&download_id=14791&edd_options[price_id]=7&wpos_cart_flush=1&utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Features-PRO'); // Plugin link
+	define('WPBAW_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**
