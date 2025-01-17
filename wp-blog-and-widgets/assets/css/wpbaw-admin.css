@@ -23,10 +23,10 @@
 .wpbaw-sf-title{font-size: 32px; font-weight: 600; color: #23282d; margin-top: 0; margin-bottom: 20px;}
 .wpbaw-sf-ttl{font-size: 23px; font-weight: 600; color: #23282d; margin-top: 0; margin-bottom: 20px;}
 .wpbaw-sf-content{margin: 0 0 20px; font-size: 16px; line-height: 150%; color: #646970;}
-.wpbaw-sf-btn{display: inline-block; font-size: 16px; padding: 10px 10px;  background-color: #46b450; border-color: #46b450; color: #fff !important; font-weight: 600; border-radius: 3px; text-decoration: none;}
+.wpbaw-sf-btn{display: inline-block; font-size: 16px; padding: 10px 10px;  background-color: #ff5d52; border-color: #ff5d52; color: #fff !important; font-weight: 600; border-radius: 3px; text-decoration: none;}
 .wpbaw-sf-btn-orange{ background-color: #FF1000; border-color: #FF1000 ;}
 .wpbaw-sf-btn:hover,
-.wpbaw-sf-btn:focus{background-color: #3fa548; border-color: #3fa548;}
+.wpbaw-sf-btn:focus{background-color: #ff5d52; border-color: #ff5d52;}
 .wpbaw-sf-btn-orange:hover,
 .wpbaw-sf-btn-orange:focus {background-color: #D01003 ; border-color: #D01003 ;}
 .wpbaw-sf-fp-ttl{font-size: 23px; line-height: 1.4em; margin-bottom: 10px; font-weight: 600; text-align: center;}
@@ -79,6 +79,88 @@ padding: 30px;text-align: center;display: flex;flex-direction: column;align-item
 .wpbaw-testimonial-box-wrap h3{margin-top:0px;}
 .wpbaw-testimonial-clnt{margin:15px 0 0 0; font-size:16px; font-weight:bold;}
 /***** End - Solutions & Features Page CSS *****/
+
+/* welcome-screen-css start -M */
+.wpbaw-inner-Bonus-class{background: #46b450;
+  border-radius: 20px;
+  font-weight: 700;
+  padding: 5px 10px;
+  color: #fff;
+    line-height: 1;
+  font-size: 12px;}
+
+.wpbaw-black-friday-feature{padding: 30px 40px;
+  background: #fafafa;
+  border-radius: 20px 20px 0 0;
+  gap: 60px;
+  align-items: center;
+  flex-direction: row;
+  display: flex;}
+.wpbaw-black-friday-feature .wpbaw-inner-deal-class{flex-direction: column;
+  gap: 15px;
+  display: flex;
+  align-items: flex-start;}
+.wpbaw-black-friday-feature ul li{text-align: left;}
+.wpbaw-black-friday-feature .wpbaw-inner-list-class {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+.wpbaw-black-friday-feature .wpbaw-list-img-class {
+  min-height: 95px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;color: #000;
+  font-size: 12px;
+}
+.wpbaw-black-friday-banner-wrp .wpbaw-list-img-class img {
+  width: 100%;
+  flex: 0 0 40px;
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  box-shadow: inset 0px 0px 15px 2px #c4f2ac;
+  border-radius: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.wpbaw-main-feature-item{background: #fafafa;
+  padding: 20px 15px 40px;
+  border-radius: 0 0 20px 20px;margin-bottom: 40px;}
+.wpbaw-inner-feature-item{display: flex;
+  gap: 30px;
+  padding: 0 15px;}
+.wpbaw-list-feature-item {
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  border-radius: 8px;text-align: left;
+}
+.wpbaw-list-feature-item img {
+  width: 36px !important;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 50%;margin-bottom: 5px;
+}
+.wpbaw-list-feature-item h5{margin: 0;
+  font-weight: bold;font-size: 16px;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: #000;}
+.wpbaw-list-feature-item p {
+  color: #505050;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+/* welcome-screen-css end -M */
 
 /***** Vertical Tabs *****/
 .wpbaw-vtab-wrap, .wpbaw-vtab-wrap *{-webkit-box-sizing: border-box; -moz-box-sizing: border-box;box-sizing: border-box; outline:none;}

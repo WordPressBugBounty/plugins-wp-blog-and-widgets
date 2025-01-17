@@ -43,10 +43,10 @@ class Wpbaw_Admin {
 		add_submenu_page( 'edit.php?post_type='.WPBAW_POST_TYPE, __('How it works, our plugins and offers', 'wp-blog-and-widgets'), __('How It Works', 'wp-blog-and-widgets'), 'manage_options', 'wpbawh-designs', array($this, 'wpbawh_designs_page') );
 
 		// Setting page
-		add_submenu_page( 'edit.php?post_type='.WPBAW_POST_TYPE, __('Overview - WP Blog and Widget', 'wp-blog-and-widgets'), '<span style="color:#2ECC71">'. __('Overview', 'wp-blog-and-widgets').'</span>', 'manage_options', 'wpbaw-solutions-features', array($this, 'wpbaw_solutions_features_page') );
+		add_submenu_page( 'edit.php?post_type='.WPBAW_POST_TYPE, __('Overview - WP Blog and Widget', 'wp-blog-and-widgets'), __('Overview', 'wp-blog-and-widgets'), 'manage_options', 'wpbaw-solutions-features', array($this, 'wpbaw_solutions_features_page') );
 
 		// Plugin features menu
-		add_submenu_page( 'edit.php?post_type='.WPBAW_POST_TYPE, __('Upgrade To PRO - WP Blog and Widget', 'wp-blog-and-widgets'), '<span style="color:#ff2700">'.__('Upgrade To PRO – Early Back Friday Deals', 'wp-blog-and-widgets').'</span>', 'edit_posts', 'wpbawh-premium', array($this, 'wpbaw_premium_page') );
+		add_submenu_page( 'edit.php?post_type='.WPBAW_POST_TYPE, __('Upgrade To PRO - WP Blog and Widget', 'wp-blog-and-widgets'), '<span style="color:#2ECC71">'.__('Upgrade To PRO', 'wp-blog-and-widgets').'</span>', 'edit_posts', 'wpbawh-premium', array($this, 'wpbaw_premium_page') );
 	}
 
 	/**

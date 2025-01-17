@@ -20,7 +20,6 @@ $tab = isset( $_GET['tab'] ) ? '#'.$_GET['tab'] : '#wpbaw_welcome_tabs';
 	<h2  class="wpos-main-heading-tittle">Welcome to <span class="wpbaw-blue">WP Blog and Widgets</span></h2>
 	<style>
 
-
 		.wpos-plugin-pricing-table{margin-bottom: 20px;}
 
 		/**** Solution Features CSS ****/		

@@ -14,9 +14,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="wpbaw_themes_tabs" class="wpbaw-vtab-cnt wpbaw_themes_tabs wpbaw-clearfix">
 	
-	<div class="wpbaw-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPBAW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wpbaw-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WPBAW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 	<!-- Start - Blog Designer - Post and Widget/Carousel - Features -->
 	<div class="wpbaw-features-section">
@@ -80,8 +80,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 	</div> -->
 
-	<div class="wpbaw-black-friday-banner-wrp">
-		<a href="<?php echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php echo esc_url( WPBAW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
-	</div>
+	<!-- <div class="wpbaw-black-friday-banner-wrp">
+		<a href="<?php // echo esc_url( WPBAW_PLUGIN_BUNDLE_LINK ); ?>" target="_blank"><img style="width: 100%;" src="<?php // echo esc_url( WPBAW_URL ); ?>assets/images/black-friday-banner.png" alt="black-friday-banner" /></a>
+	</div> -->
 
 </div>

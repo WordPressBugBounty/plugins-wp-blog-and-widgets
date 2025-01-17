@@ -5,7 +5,7 @@
  * Text Domain: wp-blog-and-widgets
  * Domain Path: /languages/
  * Description: Display Blog on your website with list and in grid view. Also work with Gutenberg shortcode block.
- * Version: 2.6.2
+ * Version: 2.6.3
  * Author: WP OnlineSupport, Essential Plugin
  * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-blog-and-widgets/
  * Contributors: Essential Plugin
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPBAW_VERSION' ) ) {
-	define( 'WPBAW_VERSION', '2.6.2' ); // Version of plugin
+	define( 'WPBAW_VERSION', '2.6.3' ); // Version of plugin
 }
 
 if( ! defined( 'WPBAW_DIR' ) ) {
