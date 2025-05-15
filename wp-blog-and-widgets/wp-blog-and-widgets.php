@@ -5,9 +5,9 @@
  * Text Domain: wp-blog-and-widgets
  * Domain Path: /languages/
  * Description: Display Blog on your website with list and in grid view. Also work with Gutenberg shortcode block.
- * Version: 2.6.3
- * Author: WP OnlineSupport, Essential Plugin
- * Author URI: https://www.essentialplugin.com/wordpress-plugin/wp-blog-and-widgets/
+ * Version: 2.6.4
+ * Author: Essential Plugin
+ * Author URI: https://www.essentialplugin.com
  * Contributors: Essential Plugin
  * 
  * @package WP Blog and Widgets
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 if( ! defined( 'WPBAW_VERSION' ) ) {
-	define( 'WPBAW_VERSION', '2.6.3' ); // Version of plugin
+	define( 'WPBAW_VERSION', '2.6.4' ); // Version of plugin
 }
 
 if( ! defined( 'WPBAW_DIR' ) ) {
@@ -37,14 +37,6 @@ if( ! defined( 'WPBAW_POST_TYPE' ) ) {
 if( ! defined( 'WPBAW_CAT' ) ) {
 	define( 'WPBAW_CAT', 'blog-category' ); // Plugin category name
 }
-
-// if( ! defined( 'WPBAW_PLUGIN_BUNDLE_LINK' ) ) {
-// 	define('WPBAW_PLUGIN_BUNDLE_LINK','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Welcome-Screen'); // Plugin link
-// }
-
-// if( ! defined( 'WPBAW_PLUGIN_LINK_UNLOCK' ) ) {
-// 	define('WPBAW_PLUGIN_LINK_UNLOCK','https://www.essentialplugin.com/essential-plugin-bundle-pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Features-PRO'); // Plugin link
-// }
 
 if( ! defined( 'WPBAW_PLUGIN_LINK_UPGRADE' ) ) {
 	define('WPBAW_PLUGIN_LINK_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Upgrade-PRO'); // Plugin Check link

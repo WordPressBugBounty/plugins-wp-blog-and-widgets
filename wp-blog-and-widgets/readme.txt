@@ -1,9 +1,9 @@
 ﻿=== WP Blog and Widgets ===
-Contributors:  wponlinesupport, anoopranawat, pratik-jain, piyushpatel123, patelketan
-Tags: wordpress blog, custom blog template, custom blog layout, Free WordPress blog, blog page with custom post type,
+Contributors: essentialplugin
+Tags: wordpress blog, custom blog template, custom blog layout, Free WordPress blog, blog page with custom post type
 Requires at least: 4.0
-Tested up to: 6.7.1
-Stable tag: 2.6.3
+Tested up to: 6.8.1
+Stable tag: 2.6.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -163,6 +163,9 @@ add_filter( 'wpbaw_blog_registered_post_type_args', 'prefix_gutenberg_editor_sup
 6. Blog admin view
 
 == Changelog ==
+
+= 2.6.4 (15, May 2025) =
+* [*] Check compatibility with WordPress version 6.8.1
 
 = 2.6.3 (17, January 2025) =
 * [*] Check compatibility with WordPress version 6.7.1
