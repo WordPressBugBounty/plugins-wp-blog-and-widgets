@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name: WP Blog and Widgets
- * Plugin URL: https://www.essentialplugin.com/wordpress-plugin/wp-blog-and-widgets/
+ * Plugin URL: https://essentialplugin.com/wordpress-plugin/wp-blog-and-widgets/
  * Text Domain: wp-blog-and-widgets
  * Domain Path: /languages/
  * Description: Display Blog on your website with list and in grid view. Also work with Gutenberg shortcode block.
- * Version: 2.6.4
+ * Version: 2.6.6
  * Author: Essential Plugin
- * Author URI: https://www.essentialplugin.com
+ * Author URI: https://essentialplugin.com
  * Contributors: Essential Plugin
  * 
  * @package WP Blog and Widgets
@@ -18,40 +18,40 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
 
-if( ! defined( 'WPBAW_VERSION' ) ) {
-	define( 'WPBAW_VERSION', '2.6.4' ); // Version of plugin
+if ( ! defined( 'WPBAW_VERSION' ) ) {
+	define( 'WPBAW_VERSION', '2.6.6' ); // Version of plugin
 }
 
-if( ! defined( 'WPBAW_DIR' ) ) {
+if ( ! defined( 'WPBAW_DIR' ) ) {
 	define( 'WPBAW_DIR', dirname( __FILE__ ) ); // Plugin dir
 }
 
-if( ! defined( 'WPBAW_URL' ) ) {
+if ( ! defined( 'WPBAW_URL' ) ) {
 	define( 'WPBAW_URL', plugin_dir_url( __FILE__ ) ); // Plugin url
 }
 
-if( ! defined( 'WPBAW_POST_TYPE' ) ) {
+if ( ! defined( 'WPBAW_POST_TYPE' ) ) {
 	define( 'WPBAW_POST_TYPE', 'blog_post' ); // Plugin post type
 }
 
-if( ! defined( 'WPBAW_CAT' ) ) {
+if ( ! defined( 'WPBAW_CAT' ) ) {
 	define( 'WPBAW_CAT', 'blog-category' ); // Plugin category name
 }
 
-if( ! defined( 'WPBAW_PLUGIN_LINK_UPGRADE' ) ) {
-	define('WPBAW_PLUGIN_LINK_UPGRADE','https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Upgrade-PRO'); // Plugin Check link
+if ( ! defined( 'WPBAW_PLUGIN_LINK_UPGRADE' ) ) {
+	define('WPBAW_PLUGIN_LINK_UPGRADE','https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Upgrade-PRO'); // Plugin Check link
 }
 
-if( ! defined( 'WPBAW_SITE_LINK' ) ) {
-	define('WPBAW_SITE_LINK','https://www.essentialplugin.com'); // Plugin link
+if ( ! defined( 'WPBAW_SITE_LINK' ) ) {
+	define('WPBAW_SITE_LINK','https://essentialplugin.com'); // Plugin link
 }
 
-if( ! defined( 'WPBAW_PLUGIN_BUNDLE_LINK' ) ) {
-	define('WPBAW_PLUGIN_BUNDLE_LINK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Welcome-Screen'); // Plugin link
+if ( ! defined( 'WPBAW_PLUGIN_BUNDLE_LINK' ) ) {
+	define('WPBAW_PLUGIN_BUNDLE_LINK', 'https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Welcome-Screen'); // Plugin link
 }
 
-if( ! defined( 'WPBAW_PLUGIN_LINK_UNLOCK' ) ) {
-	define('WPBAW_PLUGIN_LINK_UNLOCK', 'https://www.essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Features-PRO'); // Plugin link
+if ( ! defined( 'WPBAW_PLUGIN_LINK_UNLOCK' ) ) {
+	define('WPBAW_PLUGIN_LINK_UNLOCK', 'https://essentialplugin.com/pricing/?utm_source=WP&utm_medium=Blog-Widget&utm_campaign=Features-PRO'); // Plugin link
 }
 
 /**
@@ -124,7 +124,7 @@ function wpbaw_blog_install() {
 	// IMP need to flush rules for custom registered post type
 	flush_rewrite_rules();
 
-	if( is_plugin_active( 'wp-blog-and-widgets-pro/wp-blog-and-widgets.php') ) {
+	if ( is_plugin_active( 'wp-blog-and-widgets-pro/wp-blog-and-widgets.php') ) {
 	 	add_action('update_option_active_plugins', 'wpbaw_blog_deactivate_version');
 	}
 }
@@ -161,14 +161,14 @@ function wpbaw_blog_admin_notice() {
 	global $pagenow;
 
 	// If not plugin screen
-	if( 'plugins.php' != $pagenow ) {
+	if ( 'plugins.php' != $pagenow ) {
 		return;
 	}
 
 	// Check Lite Version
 	$dir = plugin_dir_path( __DIR__ ) . 'wp-blog-and-widgets-pro/wp-blog-and-widgets.php';
 
-	if( ! file_exists( $dir ) ) {
+	if ( ! file_exists( $dir ) ) {
 		return;
 	}
 
@@ -176,7 +176,7 @@ function wpbaw_blog_admin_notice() {
 	$notice_transient	= get_transient( 'wpbawh_install_notice' );
 
 	// If free plugin exist
-	if( $notice_transient == false && current_user_can( 'install_plugins' ) ) {
+	if ( $notice_transient == false && current_user_can( 'install_plugins' ) ) {
 		echo '<div class="updated notice" style="position:relative;">
 			<p>
 				<strong>'.sprintf( __('Thank you for activating %s', 'wp-blog-and-widgets'), 'WP Blog and Widget').'</strong>.<br/>
@@ -227,13 +227,13 @@ if ( is_admin() ) {
 /* Recommended Plugins Ends */
 
 /* Plugin Wpos Analytics Data Starts */
-if( ! function_exists( 'wpbaw_blog_analytics_load' ) ) {
+if ( ! function_exists( 'wpbaw_blog_analytics_load' ) ) {
 	function wpbaw_blog_analytics_load() {
 
 		require_once dirname( __FILE__ ) . '/wpos-analytics/wpos-analytics.php';
 
 		$wpos_analytics =  wpos_anylc_init_module( array(
-								'id'					=> 22,
+								'id'				=> 22,
 								'file'				=> plugin_basename( __FILE__ ),
 								'name'				=> 'WP Blog and Widget',
 								'slug'				=> 'wp-blog-and-widget',
