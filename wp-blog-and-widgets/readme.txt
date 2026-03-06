@@ -2,7 +2,7 @@
 Contributors: essentialplugin
 Tags: wordpress blog, custom blog template, custom blog layout, Free WordPress blog, blog page with custom post type
 Requires at least: 4.0
-Tested up to: 6.8.3
+Tested up to: 6.9.1
 Stable tag: 2.6.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
